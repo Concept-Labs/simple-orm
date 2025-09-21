@@ -1,0 +1,31 @@
+{
+    "name": "concept-labs/simple-orm",
+    "type": "library",
+    "description": "(C)oncept-Labs HTTP Simple ORM",
+    "keywords": ["php", "orm", "simple"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Halytskyi",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "concept-labs/dbal": "^1",
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\SimpleOrm\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "suggest": {
+        "concept-labs/singularity": "PSR Container. Powerfull aAnd Flexable Dependency Injection pack"
+    }
+}
