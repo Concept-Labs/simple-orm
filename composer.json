@@ -26,6 +26,6 @@
         }
     },
     "suggest": {
-        "concept-labs/singularity": "PSR Container. Powerfull aAnd Flexable Dependency Injection pack"
+        "concept-labs/singularity": "PSR Container. Powerful and Flexible Dependency Injection package"
     }
 }
